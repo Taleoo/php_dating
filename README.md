@@ -62,4 +62,18 @@ L’interface comprend trois pages, la page d’accueil, la page d’inscription
 - Un sport peut être pratiqué par une ou plusieurs personnes. La cardinalité du coté de
 l’entité sport est donc également 1.N.
 - Ces entités sont reliées par l’association `pratique`, qui possède l’attribut `niveau`.
-    
+
+LE MCD
+![MCD](./mcd.png)
+
+LE MLD
+![MLD](./mld.png)
+
+---
+
+Vous êtes libre de mettre la mise en page que vous voulez.
+
+ 
+* Vous allez devoir faire un fork  de ce projet ( car il doit rester sous cette forme merci d'avance)
+* Vous devrer en faire toutes les modifications nécessaire au bon fonctionnement du site.
+* > Bon chance !!
