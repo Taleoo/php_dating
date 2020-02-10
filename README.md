@@ -77,3 +77,8 @@ Vous êtes libre de mettre la mise en page que vous voulez.
 * Vous allez devoir faire un fork  de ce projet ( car il doit rester sous cette forme merci d'avance)
 * Vous devrer en faire toutes les modifications nécessaire au bon fonctionnement du site.
 * > Bon chance !!
+
+
+**A RENDRE A U PLUS TARD LE 06/03/2020**
+
+
