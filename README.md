@@ -14,6 +14,7 @@ CDC :
 L’interface comprend trois pages, la page d’accueil, la page d’inscription et la page de recherche, chacune dotée de fonctionnalités spécifiques.
 
 - Page d'accueil
+
     Nommée `index.php`, la page d’accueil contient les éléments suivants :
     - En-tête commun.
     - Liste des sports existants dans la base.
@@ -25,19 +26,22 @@ L’interface comprend trois pages, la page d’accueil, la page d’inscription
     - Lien vers la page d’inscription pour les personnes non encore enregistrées.
     
 - Page d'inscription
+
     Nommée `ajout.php`, la page d’inscription contient les éléments suivants :
-        - En-tête commun.
-        - Formulaire HTML d’enregistrement comprenant trois zones principales :
-            – La première comporte les zones de saisie de texte pour le nom, le prénom, le département et l’e-mail.
-            – La deuxième contient une zone de sélection proposant le choix des sports existant dans la table sport. 
-            Cette liste est construite dynamiquement à partir des sélections des sports existants dans la base par les utilisateurs. 
-            Une seconde liste de sélection permet à l’utilisateur de choisir son niveau. 
-            Les choix possibles sont « débutant », « confirmé », « pro » ou « supporter ». Une zone de saisie de texte et un bouton d’envoi particulier permettent au visiteur d’ajouter un nouveau sport dans la table s’il n’est pas proposé dans la liste. Après l’enregistrement du nouveau sport, le visiteur est dirigé vers la page d’inscription mise à jour avec ce nouveau sport.
-            – Le formulaire se termine par les habituels boutons d’envoi et de réinitialisation.
-        - Lien vers la page d’accueil.
-        - Script vérifiant l’existence de saisies dans les zones de texte et les listes de sélection, enregistrant les données dans la base sportifs et affichant l’identifiant généré.
+    
+    - En-tête commun.
+    - Formulaire HTML d’enregistrement comprenant trois zones principales :
+        – La première comporte les zones de saisie de texte pour le nom, le prénom, le département et l’e-mail.
+        – La deuxième contient une zone de sélection proposant le choix des sports existant dans la table sport. 
+        Cette liste est construite dynamiquement à partir des sélections des sports existants dans la base par les utilisateurs. 
+        Une seconde liste de sélection permet à l’utilisateur de choisir son niveau. 
+        Les choix possibles sont « débutant », « confirmé », « pro » ou « supporter ». Une zone de saisie de texte et un bouton d’envoi particulier permettent au visiteur d’ajouter un nouveau sport dans la table s’il n’est pas proposé dans la liste. Après l’enregistrement du nouveau sport, le visiteur est dirigé vers la page d’inscription mise à jour avec ce nouveau sport.
+        – Le formulaire se termine par les habituels boutons d’envoi et de réinitialisation.
+    - Lien vers la page d’accueil.
+    - Script vérifiant l’existence de saisies dans les zones de texte et les listes de sélection, enregistrant les données dans la base sportifs et affichant l’identifiant généré.
 
 - La page de recherche
+
     Nommée `recherche.php`, la page de recherche contient les éléments suivants :
     - En-tête commun.
     - Formulaire de saisie contenant trois listes de sélection : 
