@@ -23,8 +23,9 @@ L’interface comprend trois pages, la page d’accueil, la page d’inscription
     créés dynamiquement, un vers la page de recherche et un vers la page d’inscription, permettant de s’enregistrer pour un nouveau sport. 
     Si l’e-mail ne figure pas dans la base, le visiteur est redirigé automatiquement vers la page d’inscription.
     - Lien vers la page d’inscription pour les personnes non encore enregistrées.
+    
 - Page d'inscription
-    Nommée ajout.php, la page d’inscription contient les éléments suivants :
+    Nommée `ajout.php`, la page d’inscription contient les éléments suivants :
         - En-tête commun.
         - Formulaire HTML d’enregistrement comprenant trois zones principales :
             – La première comporte les zones de saisie de texte pour le nom, le prénom, le département et l’e-mail.
@@ -35,6 +36,7 @@ L’interface comprend trois pages, la page d’accueil, la page d’inscription
             – Le formulaire se termine par les habituels boutons d’envoi et de réinitialisation.
         - Lien vers la page d’accueil.
         - Script vérifiant l’existence de saisies dans les zones de texte et les listes de sélection, enregistrant les données dans la base sportifs et affichant l’identifiant généré.
+
 - La page de recherche
     Nommée `recherche.php`, la page de recherche contient les éléments suivants :
     - En-tête commun.
