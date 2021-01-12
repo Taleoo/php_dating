@@ -79,6 +79,6 @@ Vous êtes libre de mettre la mise en page que vous voulez.
 * > Bon chance !!
 
 
-**A RENDRE A U PLUS TARD LE 06/03/2020**
+
 
 
